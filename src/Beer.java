@@ -33,10 +33,6 @@ public class Beer implements Serializable {
 
     @Override
     public String toString() {
-        return "Beer{" +
-                "name='" + name + '\'' +
-                ", style='" + style + '\'' +
-                ", strength=" + strength +
-                '}';
+        return (name + " " + style + " | " + strength + "%");
     }
 }
